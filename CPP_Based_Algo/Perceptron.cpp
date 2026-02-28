@@ -20,8 +20,7 @@ int main(){
     cout<<"Type your CGPA here: "<<endl;
 
     //Forward pass calculation:
-    double c= Forward_pass(X1,X2);
-    cout<<c<<endl;
+    double Y = Forward_pass(X1,X2);
 
     return 0;
 }
